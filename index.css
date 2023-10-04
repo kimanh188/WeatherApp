@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rufina", serif;
+  background-image: url("https://images.unsplash.com/photo-1514454529242-9e4677563e7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+.title {
+  margin-bottom: 2em;
+  font-size: 3.052rem;
+  color: #3d5656;
+  text-align: center;
+}
+
+#cityForm {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+input {
+  padding: 1em;
+  border: none;
+  border-radius: 1em 0 0 1em;
+}
+
+button {
+  padding: 1em;
+  border-radius: 0 1em 1em 0;
+  background-color: #fbffdc;
+  border: none;
+}
+
+button:active {
+  background-color: grey;
+  color: white;
+}
+
+#location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+#weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#info-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+
+  background-color: #fbffdcaa;
+  border: 1px solid rgba(251, 255, 220, 0.3);
+
+  margin: 2em;
+  padding: 2em;
+  gap: 3em;
+  border-radius: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  color: #22668d;
+}
+
+h4 {
+  color: #3d5656;
+}
+
+small {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+}

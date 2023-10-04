@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Weather App</h1>
+
+    <form id="cityForm">
+      <input
+        type="text"
+        name="searchedCity"
+        placeholder="City"
+        pattern="^[A-Za-zäöüÄÖÜß ]+$"
+      />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="weather-container">
+      <div id="location">
+        <p id="data-city"></p>
+        <p id="data-province"></p>
+        <p id="data-date"></p>
+      </div>
+
+      <div id="info-container">
+        <div id="icon-container" class="info-box">
+          <img
+            id="data-icon"
+            src="//cdn.weatherapi.com/weather/64x64/day/113.png"
+            alt="weather icon"
+            class="weather-icon"
+          />
+        </div>
+
+        <div id="info" class="info-box">
+          <div>
+            <h4>Wind</h4>
+            <small id="data-wind"></small>
+          </div>
+          <div>
+            <h4>Grad Celsius</h4>
+            <small id="data-grad"></small>
+          </div>
+          <div>
+            <h4>Feels like</h4>
+            <small id="data-feelslike"></small>
+          </div>
+          <div>
+            <h4>Humidity</h4>
+            <small id="data-humidity"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
