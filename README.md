@@ -2,6 +2,8 @@
 
 A simple web app that allows users to check real-time weather data and local time based on the location input. This project serves as a practical exercise for making API calls to fetch and display accurate weather information.
 
+[Live Site](https://kimanh188.github.io/WeatherApp/)
+
 ## Features
 
 - **Weather Information:** Get real-time weather updates, including temperature, wind speed, humidity.
